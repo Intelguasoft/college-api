@@ -1,60 +1,47 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<p align="center"><img src="data:image/jpeg;base64,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"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+<p align="center">College API</p>
 
-## About Laravel
+## About College API
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+College API es una Web API, el cual se usara como endpoint para el control de un colegio / escuela / universidad basado en la información que se maneja dentro del territorio de Guatemala, incluye todas las areas que se implementan en dicho centros de estudio, incluyendo el area contable, dichas area se detallan a continuación:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Control de pre-inscripciones [PRO].
+- Control de inscripciones [STD/PRO].
+- Control de notas.
+- Control de asistencia.
+- Control de incidentes por estudiante.
+- Control de gastos.
+- Control de pagos.
+- Control de Catedráticos.
+- Control de evaluaciones.
+- Control de tareas asignadas.
+- Area de Padres / Tutores [PRO]
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
+Algo mas, esta por venir...
 
-## Learning Laravel
+## Learning College API
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
+College API has the most extensive and thorough [documentation](https://api.college.com/docs) and video tutorial library of any modern web application.
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+## College API Sponsors
 
-## Laravel Sponsors
+We would like to extend our thanks to the following sponsors for helping fund on-going College API development. If you are interested in becoming a sponsor, please visit the  College API [Patreon page](https://patreon.com/intelguasoft):
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
+- **[Multiservicios El Kairos](https://elkairosmultiservicios.com/)**
+- **[Izaservicios](https://izaservicios.com)**
+- **[Empresa Galindo S. A.](https://empresasgalindo.com)**
+- **[TerraSoft](https://terrasoft.com)**
+- **[IGSS](https://www.theleyend.com)**
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Agradecemos las contribuciones echas al proyecto College API! Todas las contribuciones echas estan detalladas en la siguiente guia [College API Contribuciones](https://api.college.com/docs/contributions).
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within College API, please send an e-mail to Henry Díaz via [hnrdiaz@intelguasoft.com](mailto:hnrdiaz@intelguasoft.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+El proyecto College API es de licencia propietaria.
